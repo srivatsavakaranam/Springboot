@@ -1,0 +1,13 @@
+egen\io\weather\details\Weather.class
+egen\io\weather\repository\WeatherRepository.class
+egen\io\weather\exception\NotFoundException.class
+egen\io\weather\services\WeatherServiceImpl.class
+egen\io\springboot\WebConfiguration.class
+egen\io\weather\exception\BadrequestException.class
+egen\io\weather\repository\WeatherRepo.class
+egen\io\weather\Controller\WeatherController.class
+egen\io\weather\details\Wind.class
+egen\io\springboot\Application.class
+egen\io\weather\details\URI.class
+egen\io\weather\swaggerconfig\SwaggerConfig.class
+egen\io\weather\services\WeatherService.class
