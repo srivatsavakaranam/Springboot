@@ -28,7 +28,7 @@ public class WeatherController {
 		this.service = service;
 	}
 
-	@CrossOrigin
+	@CrossOrigin(origins = "http://mocker.egen.io/",maxAge=7200)
 	@RequestMapping(method = RequestMethod.POST, consumes = org.springframework.http.MediaType.APPLICATION_JSON_UTF8_VALUE)
 	@ApiOperation(value = "POST THE DATA", notes = "Just get the data by URL")
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "Success"),
